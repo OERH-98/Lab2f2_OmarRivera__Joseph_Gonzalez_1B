@@ -9,4 +9,16 @@ public class MecanicaPits extends MiembroEscuderia{
         super(nombre, identificacion, correoElectronico, numeroEmpleado, fechaIngreso);
         this.especialidad = especialidad;
     }
+
+    @Override
+    public String toString() {
+        return "MecanicaPits{" +
+                "especialidad='" + especialidad + '\'' +
+                ", numeroEmpleado=" + numeroEmpleado +
+                ", fechaIngreso=" + fechaIngreso +
+                ", nombre='" + nombre + '\'' +
+                ", identificacion=" + identificacion +
+                ", correoElectronico='" + correoElectronico + '\'' +
+                '}';
+    }
 }

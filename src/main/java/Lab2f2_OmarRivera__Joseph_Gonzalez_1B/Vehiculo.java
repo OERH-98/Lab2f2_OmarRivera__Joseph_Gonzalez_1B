@@ -1,8 +1,5 @@
 package Lab2f2_OmarRivera__Joseph_Gonzalez_1B;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Vehiculo{
     private int cantidadCilindros;
     private String matricula;

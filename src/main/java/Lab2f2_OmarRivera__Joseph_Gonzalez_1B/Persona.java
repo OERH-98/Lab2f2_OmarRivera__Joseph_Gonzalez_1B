@@ -1,6 +1,29 @@
 package Lab2f2_OmarRivera__Joseph_Gonzalez_1B;
 
 public abstract class Persona {
+    public String getNombre() {
+        return nombre;
+    }
+
+    public int getIdentificacion() {
+        return identificacion;
+    }
+
+    public String getCorreoElectronico() {
+        return correoElectronico;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setIdentificacion(int identificacion) {
+        this.identificacion = identificacion;
+    }
+
+    public void setCorreoElectronico(String correoElectronico) {
+        this.correoElectronico = correoElectronico;
+    }
 
     protected String nombre;
     protected int identificacion;

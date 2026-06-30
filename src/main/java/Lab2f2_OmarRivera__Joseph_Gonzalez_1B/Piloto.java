@@ -6,9 +6,9 @@ import java.util.List;
 
 public class Piloto extends MiembroEscuderia{
     private String numeroLicencia;
-    private List<Vehiculo> vehiculo = new ArrayList<>();
+    private Vehiculo vehiculo;
 
-    public Piloto(String nombre, int identificacion, String correoElectronico, int numeroEmpleado, LocalDate fechaIngreso, String numeroLicencia, List<Vehiculo> vehiculo) {
+    public Piloto(String nombre, int identificacion, String correoElectronico, int numeroEmpleado, LocalDate fechaIngreso, String numeroLicencia, Vehiculo vehiculo) {
         super(nombre, identificacion, correoElectronico, numeroEmpleado, fechaIngreso);
         this.numeroLicencia = numeroLicencia;
         this.vehiculo = vehiculo;

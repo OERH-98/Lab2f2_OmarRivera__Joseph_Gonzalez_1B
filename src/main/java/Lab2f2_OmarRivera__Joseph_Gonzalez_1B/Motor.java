@@ -6,4 +6,11 @@ public class Motor {
     public Motor(int numeroMotor) {
         this.numeroMotor = numeroMotor;
     }
+
+    @Override
+    public String toString() {
+        return "Motor{" +
+                "numeroMotor=" + numeroMotor +
+                '}';
+    }
 }

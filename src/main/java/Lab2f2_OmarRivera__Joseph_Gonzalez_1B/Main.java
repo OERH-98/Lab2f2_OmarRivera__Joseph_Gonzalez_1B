@@ -1,14 +1,23 @@
 package Lab2f2_OmarRivera__Joseph_Gonzalez_1B;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import java.time.LocalDate;
+
+//Creado por Joseph
 public class Main {
     public static void main(String[] args) {
+        Espectador obj1 = new Espectador("Jose",23,"2332@gmail.com",2311);
+        MecanicaPits obj2 = new MecanicaPits("xd",233,"323@gflgk.com",2323,LocalDate.now(),"Llantas");
+        Motor obj3 = new Motor(23);
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        System.out.println(obj1);
+
+        System.out.println(obj2);
+
+        System.out.println(obj3);
+
+
+
+
+
     }
 }
