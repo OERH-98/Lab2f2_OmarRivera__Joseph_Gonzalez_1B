@@ -13,4 +13,17 @@ public class Piloto extends MiembroEscuderia{
         this.numeroLicencia = numeroLicencia;
         this.vehiculo = vehiculo;
     }
+
+    @Override
+    public String toString() {
+        return "Piloto{" +
+                "numeroLicencia='" + numeroLicencia + '\'' +
+                ", vehiculo=" + vehiculo +
+                ", numeroEmpleado=" + numeroEmpleado +
+                ", fechaIngreso=" + fechaIngreso +
+                ", nombre='" + nombre + '\'' +
+                ", identificacion=" + identificacion +
+                ", correoElectronico='" + correoElectronico + '\'' +
+                '}';
+    }
 }

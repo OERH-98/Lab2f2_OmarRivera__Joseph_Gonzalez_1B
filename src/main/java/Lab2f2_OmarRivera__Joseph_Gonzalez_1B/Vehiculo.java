@@ -12,4 +12,14 @@ public class Vehiculo{
         this.motor = motor;
         this.chasis = chasis;
     }
+
+    @Override
+    public String toString() {
+        return "Vehiculo{" +
+                "cantidadCilindros=" + cantidadCilindros +
+                ", matricula='" + matricula + '\'' +
+                ", motor=" + motor +
+                ", chasis=" + chasis +
+                '}';
+    }
 }

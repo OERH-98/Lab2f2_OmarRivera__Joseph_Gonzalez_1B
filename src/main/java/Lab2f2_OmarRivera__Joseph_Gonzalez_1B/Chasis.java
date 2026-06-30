@@ -6,4 +6,11 @@ public class Chasis {
     public Chasis(int numeroAlerones) {
         this.numeroAlerones = numeroAlerones;
     }
+
+    @Override
+    public String toString() {
+        return "Chasis{" +
+                "numeroAlerones=" + numeroAlerones +
+                '}';
+    }
 }
