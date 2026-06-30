@@ -1,6 +1,7 @@
 package Lab2f2_OmarRivera__Joseph_Gonzalez_1B;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
 
 //Creado por Joseph
 public class Main {
@@ -16,9 +17,6 @@ public class Main {
         System.out.println(obj2);
         System.out.println(obj5);
         System.out.println(obj6);
-
-        Carrera objCarrera = new Carrera("SDAJKSDA","MONACO","IDK",LocalDate.now(),)
-
 
     }
 }
